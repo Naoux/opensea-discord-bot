@@ -30,7 +30,8 @@ async def getSales():
     global lastSalesNumber
     url      = "https://api.opensea.io/api/v1/events"
     now      = datetime.datetime.now() - datetime.timedelta(seconds=120)
-    date     = now.strftime("%Y-%m-%dT%H:%M:%S+01:00")
+    print(now)
+    date     = now.strftime("%Y-%m-%dT%H:%M:%S")
     params   = {
         'collection_slug': COLLECTION_SLUG,
         'event_type':      'successful',
