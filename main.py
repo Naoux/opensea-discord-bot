@@ -1,4 +1,3 @@
-from logging import lastResort
 from discord.ext import commands, tasks
 import datetime, random, requests, discord
 
