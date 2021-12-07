@@ -54,7 +54,6 @@ async def getLastSales():
                 salesData = {}
                 try:
                     salesData['nftId']        = sales['asset']['name']
-                    salesData['animationUrl'] = sales['asset']['animation_url']
                     salesData['imageUrl']     = sales['asset']['image_original_url']
                     salesData['when']         = " ".join(sales['transaction']['timestamp'].split("T")).replace("-", "/")
                     salesData['txUrl']        = 'https://etherscan.io/tx/{}'.format(sales['transaction']['transaction_hash'])
