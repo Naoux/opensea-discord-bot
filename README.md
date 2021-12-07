@@ -2,13 +2,16 @@ What can the bot do ?
  - Display floor price instead of displaying current game.
 ![alt text](https://i.gyazo.com/8b58dbf31cab62fd4b4643c100cb40bd.png)
 
- - Send all new successful sales for Soulware Origins (Genesis).
+ - Send all new successful sales for a specific collection.
   ![alt text](https://i.gyazo.com/7d8d7cb51940511c100540151778afc8.png)
+  
+ - Send all new listing for a specific collection.
+ ![alt text](https://i.gyazo.com/92b403b3e80f068248d410726f6fee2e.png)
   
 To make it work you need to:
   - clone the repo: `git clone https://github.com/Naoux/soulwareSalesBot/`
   - install requirements: `pip install -r requirements.txt`
-  - put OPENSEA_API_KEY, DISCORD_CHANNEL_ID, DISCORD_TOKEN and COLLECTION_SLUG inside main.py
+  - put OPENSEA_API_KEY, SALES_CHANNEL_ID, LISTINGS_CHANNEL_ID, DISCORD_TOKEN and COLLECTION_SLUG inside main.py
   - run it with `nohup python3 main.py &`
 
 You can create a crontab task to run it at each reboot:
