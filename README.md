@@ -3,7 +3,7 @@ What can the bot do ?
 ![alt text](https://i.gyazo.com/8b58dbf31cab62fd4b4643c100cb40bd.png)
 
  - Send all new successful sales for a specific collection.
-  ![alt text](https://i.gyazo.com/7d8d7cb51940511c100540151778afc8.png)
+  ![alt text](https://i.gyazo.com/d3e37f5d67c7293f6ffe868f417ddec9.png)
   
  - Send all new listing for a specific collection.
  ![alt text](https://i.gyazo.com/92b403b3e80f068248d410726f6fee2e.png)
