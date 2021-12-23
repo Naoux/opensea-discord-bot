@@ -9,7 +9,7 @@ What can the bot do ?
  ![alt text](https://i.gyazo.com/92b403b3e80f068248d410726f6fee2e.png)
   
 To make it work you need to:
-  - clone the repo: `git clone https://github.com/Naoux/soulwareSalesBot/`
+  - clone the repo: `git clone https://github.com/Naoux/opensea-discord-bot.git`
   - install requirements: `pip install -r requirements.txt`
   - put OPENSEA_API_KEY, SALES_CHANNEL_ID, LISTINGS_CHANNEL_ID, DISCORD_TOKEN and COLLECTION_SLUG inside main.py
   - run it with `nohup python3 main.py &`
