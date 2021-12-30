@@ -24,9 +24,9 @@ async def getFloorPrice():
     try:
         response   = requests.request("GET", url, headers=headers).json()
         floorPrice = response['stats']['floor_price']
+        await bot.change_presence(activity=discord.Game(name='Floor price: {}eth'.format(floorPrice)))
     except:
         pass
-    await bot.change_presence(activity=discord.Game(name='Floor price: {}eth'.format(floorPrice)))
 
 @tasks.loop(minutes=1)
 async def getLastSales():
